@@ -503,11 +503,6 @@ fieldset[disabled] .btn-success.active {
   opacity: 0;
   display: none;
 }
-@media (max-width: 767px) {
-  .inline {
-    display: block;
-  }
-}
 .inline {
   display: inline;
   margin-right: 20px;
@@ -522,5 +517,10 @@ fieldset[disabled] .btn-success.active {
 .img {
   height: 260px;
   width: 100%;
-\
+
+}
+@media (max-width: 767px) {
+  .inline {
+    display: block;
+  }
 }
